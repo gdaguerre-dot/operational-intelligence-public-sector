@@ -14,6 +14,22 @@ Using historical service desk records from a large-scale public sector digital t
 Rather than analyzing individual incidents, the objective is to understand how the IT service performs as a whole.
 
 ---
+---
+
+## Project Approach
+
+This repository follows a consulting-oriented Business Intelligence methodology covering the complete analytics lifecycle:
+
+1. Business Understanding
+2. Data Exploration (EDA)
+3. Data Preparation
+4. Dimensional Modeling
+5. KPI Design
+6. Dashboard Development
+7. Executive Storytelling
+8. Business Recommendations
+
+The objective is not only to build dashboards, but to demonstrate how operational data can be transformed into strategic decision-making tools.
 
 # Business Problem
 
