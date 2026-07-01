@@ -1,9 +1,8 @@
 # Operational Intelligence for Public Sector Digital Transformation
 
-### Business Intelligence | IT Service Management | Power BI | Data Analytics | Process Improvement
+### Business Intelligence | IT Service Management | Power BI | SQL | Data Analytics
 
-Consulting-style Business Intelligence Case Study
----
+**Consulting-Style Business Intelligence Case Study**
 
 ## Executive Summary
 
@@ -18,18 +17,41 @@ Rather than analyzing individual incidents, the objective is to understand how t
 
 ## Project Approach
 
-This repository follows a consulting-oriented Business Intelligence methodology covering the complete analytics lifecycle:
+This repository follows a consulting-oriented Business Intelligence methodology designed to transform operational IT service data into strategic information for decision makers.
 
-1. Business Understanding
-2. Data Exploration (EDA)
-3. Data Preparation
-4. Dimensional Modeling
-5. KPI Design
-6. Dashboard Development
-7. Executive Storytelling
-8. Business Recommendations
+Rather than focusing solely on dashboard development, the project documents the complete analytical lifecycle used in Business Intelligence consulting engagements.
 
-The objective is not only to build dashboards, but to demonstrate how operational data can be transformed into strategic decision-making tools.
+## Analytics Methodology
+
+The project is structured into seven analytical phases.
+
+### Phase 1 — Business Understanding
+
+Define the business context, stakeholders, business objectives and analytical questions.
+
+### Phase 2 — Exploratory Data Analysis (SQL)
+
+Understand the operational dataset through descriptive analysis, data profiling and exploratory SQL queries.
+
+### Phase 3 — Data Preparation
+
+Assess data quality, clean operational records and prepare the dataset for analytical modeling.
+
+### Phase 4 — Dimensional Modeling
+
+Design a Star Schema optimized for Business Intelligence and executive reporting.
+
+### Phase 5 — Dashboard Development
+
+Create executive dashboards focused on operational performance, IT Service Management and decision support.
+
+### Phase 6 — Executive Reporting
+
+Document findings, KPIs, business recommendations and analytical conclusions.
+
+### Phase 7 — Executive Storytelling
+
+Translate analytical findings into strategic insights understandable by business stakeholders.
 
 # Business Problem
 
@@ -104,6 +126,39 @@ Each record contains operational information including:
 - Assignee
 
 ---
+Business Understanding
+
+↓
+
+SQL Exploration
+
+↓
+
+Data Quality Assessment
+
+↓
+
+Data Preparation
+
+↓
+
+Dimensional Modeling
+
+↓
+
+KPI Definition
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Executive Storytelling
+
+↓
+
+Business Recommendations
 
 # Data Model
 
@@ -198,29 +253,39 @@ The dashboard enables managers to:
 
 # Repository Structure
 
-```
+```text
 Operational-Intelligence-Public-Sector/
 
 │
 ├── README.md
 │
 ├── data/
-│     └── incidents_raw.csv
+│     ├── raw/
+│     │      incidents_raw.csv
+│     └── processed/
+│
+├── sql/
+│     ├── 01_business_understanding.sql
+│     ├── 02_exploratory_data_analysis.sql
+│     ├── 03_data_quality.sql
+│     ├── 04_dimensional_model.sql
+│     └── 05_kpi_queries.sql
 │
 ├── powerbi/
 │     └── Operational_Intelligence.pbix
 │
-├── documentation/
-│     └── Operational_Intelligence_Report.pdf
+├── pdf/
+│     └── Operational_Intelligence_Case_Study.pdf
 │
 ├── images/
+│     ├── business_workflow.png
+│     ├── star_schema.png
 │     ├── executive_dashboard.png
 │     ├── operational_dashboard.png
 │     ├── process_analytics.png
 │     └── storytelling.png
 │
-└── sql/
-      └── exploratory_queries.sql
+└── LICENSE
 ```
 
 ---
