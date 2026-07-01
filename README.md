@@ -2,6 +2,7 @@
 
 ### Business Intelligence | IT Service Management | Power BI | Data Analytics | Process Improvement
 
+Consulting-style Business Intelligence Case Study
 ---
 
 ## Executive Summary
