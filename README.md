@@ -1,6 +1,6 @@
 # Operational Intelligence for Public Sector Digital Transformation
 
-### Business Intelligence | IT Service Management | Power BI | SQL | Data Analytics | Process Improvement
+### Business Intelligence | IT Service Management | Power BI | Data Analytics | Process Improvement
 
 ---
 
