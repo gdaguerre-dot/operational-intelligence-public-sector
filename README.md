@@ -13,7 +13,6 @@ Using historical service desk records from a large-scale public sector digital t
 Rather than analyzing individual incidents, the objective is to understand how the IT service performs as a whole.
 
 ---
----
 
 ## Project Approach
 
